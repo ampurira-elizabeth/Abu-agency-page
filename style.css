@@ -1,0 +1,334 @@
+body {
+
+    background-color: rgb(248, 252, 250);
+}
+
+section {
+    border: 15px solid;
+    border-color: rgb(232, 241, 236);
+    background-position: 100px;
+    margin: 150px;
+
+}
+
+.lohead {
+    display: flex;
+    margin-top: 20px;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.head {
+    margin-right: -30px;
+    margin-top: 10px;
+    color: #55b8a7;
+}
+
+.navigation a {
+
+    margin-left: 100px;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.navigation button {
+    background-color: blue;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+.headings {
+
+    margin-left: 200px;
+    margin-top: 90px;
+}
+
+.headings h1 {
+    font-size: 300%;
+
+}
+
+.headings img {
+    margin-bottom: 10px;
+    height: 200px;
+}
+
+.fa-twitter {
+    margin-left: 70px;
+    color: rgb(9, 117, 117);
+    border: solid #274e36 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(245, 243, 243);
+}
+
+.fa-instagram {
+    margin-left: 70px;
+    color: rgb(9, 117, 117);
+    border: solid #d9db6c 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(243, 239, 239);
+}
+
+.btn {
+    margin-left: 20%;
+    display: flex;
+}
+
+.btn1 {
+    margin-left: 10px;
+}
+
+.pic {
+    margin-left: 40%;
+    margin-top: -25%;
+}
+
+.ptners {
+    display: flex;
+    margin-left: 200px;
+    background-color: rgb(248, 242, 242);
+    width: 600px;
+    margin-top: 20px;
+}
+
+.n {
+    margin-left: 80px;
+}
+
+.t {
+    margin-left: 10px;
+}
+
+.p {
+    margin-right: 180px;
+    margin-left: 20px;
+}
+
+.one {
+    margin-left: 200px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.one img {
+    height: 60px;
+    width: 90px;
+}
+
+.first {
+    margin-right: 50px;
+    color: rgb(231, 154, 60);
+}
+
+.frst {
+    margin-left: 100px;
+}
+
+.scnd {
+    margin-left: 100px;
+}
+
+.snd {
+    margin-left: 100px;
+}
+
+.services {
+    text-align: center;
+    margin-right: 100px;
+}
+
+.sevs {
+    margin-top: 20px;
+    margin-left: 200px;
+    display: flex;
+}
+
+.sevs h5 {
+    margin-left: 20px;
+}
+
+.sevs i {
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.sv1 {
+    font-size: 30px;
+}
+
+.fa-desktop {
+    background: #f8f8f6;
+    border-radius: 20px;
+    padding: 15px;
+    color: rgb(7, 6, 6);
+    margin-top: 20px;
+}
+
+.fa-bullseye {
+
+    background: #3388d8;
+    border-radius: 20px;
+    padding: 15px;
+    color: rgb(250, 248, 248);
+    margin-top: 20px;
+
+}
+
+.fa-chess-queen {
+    background: #ebdc0c;
+    border-radius: 20px;
+    padding: 15px;
+    color: rgb(253, 253, 253);
+    margin-top: 20px;
+}
+
+.sv2 {
+
+    background-color: rgb(201, 229, 233);
+
+}
+
+.sv2 h6 {
+    margin-left: 20px;
+}
+
+.sv3 h6 {
+    margin-left: 20px;
+}
+
+.sv4 h6 {
+    margin-left: 20px;
+}
+
+.sv3 {
+    margin-left: 10px;
+    background-color: rgb(28, 80, 54);
+}
+
+.sv4 {
+    margin-left: 10px;
+    background-color: rgb(154, 197, 226);
+
+}
+
+.work {
+    margin-left: 200px;
+    display: flex;
+}
+
+.hi {
+    margin-left: 500px;
+
+}
+
+.imag {
+    margin-left: 100px;
+}
+
+.imag1 {
+    margin-bottom: 50px;
+}
+
+.im1 {
+    margin-bottom: 50px;
+
+}
+
+.imag2 {
+    margin-bottom: 50px;
+}
+
+.sign {
+    margin-left: 200px;
+}
+
+.butn {
+    width: 400px;
+    margin-left: 120px;
+    display: flex;
+    height: 90px;
+    background-color: rgb(156, 141, 141);
+
+}
+
+.imag3 span {
+    background: #ebdc0c;
+    border-radius: 20px;
+    padding: 15px;
+    color: rgb(253, 253, 253);
+    margin-top: 20px;
+}
+
+.butn button {
+    height: 30px;
+    margin-left: 30px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.sign h1 {
+    font-size: 40px;
+}
+
+.sign h6 {
+    margin-left: 200px;
+}
+
+.last {
+    margin-left: 200px;
+
+
+}
+
+.H1 {
+    margin-left: 200px;
+}
+
+.H2 {
+
+    font-size: 30px;
+}
+
+.lst {
+    display: inline;
+}
+
+.list button {
+    height: 50px;
+    border: none;
+
+}
+
+.lsst {
+
+    margin-top: 20px;
+
+
+}
+
+.log {
+    display: flex;
+    margin-left: 330px;
+
+}
+
+.loog {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.log1 {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.splash {
+    margin-right: -500%;
+}
