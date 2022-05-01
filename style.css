@@ -1,19 +1,29 @@
 body {
 
-    background-color: rgb(248, 252, 250);
+    background-color: white;
 }
 
 section {
     border: 15px solid;
-    border-color: rgb(232, 241, 236);
+    border-color: rgb(217, 223, 220);
+    background-color: rgb(253, 241, 222);
     background-position: 100px;
     margin: 150px;
+}
 
+.main {
+    box-shadow: 10px 10px rgb(217, 223, 220);
+    background-color: rgb(250, 239, 241);
+}
+
+.sub {
+    box-shadow: 10px 10px rgb(217, 223, 220);
 }
 
 .lohead {
     display: flex;
     margin-top: 20px;
+    margin-left: 20px;
 }
 
 .logo {
@@ -27,27 +37,31 @@ section {
 }
 
 .navigation a {
-
+    float: right;
     margin-left: 100px;
     text-decoration: none;
-    padding-left: 30px;
+
+}
+
+.navigation {
+    display: flex;
 }
 
 .navigation button {
     background-color: blue;
     height: 30px;
     border-radius: 10px;
-    margin-left: 100px;
+    margin-left: 130px;
 }
 
 .headings {
 
-    margin-left: 200px;
+    margin-left: 190px;
     margin-top: 90px;
 }
 
 .headings h1 {
-    font-size: 300%;
+    font-size: 200%;
 
 }
 
@@ -61,7 +75,7 @@ section {
     color: rgb(9, 117, 117);
     border: solid #274e36 15px;
     border-radius: 20px;
-    box-shadow: 5px 5px rgb(245, 243, 243);
+    box-shadow: 5px 5px rgb(241, 210, 170);
 }
 
 .fa-instagram {
@@ -69,7 +83,7 @@ section {
     color: rgb(9, 117, 117);
     border: solid #d9db6c 15px;
     border-radius: 20px;
-    box-shadow: 5px 5px rgb(243, 239, 239);
+    box-shadow: 5px 5px rgb(243, 212, 172);
 }
 
 .btn {
@@ -77,13 +91,25 @@ section {
     display: flex;
 }
 
+.btn button {
+    background-color: rgb(165, 203, 238);
+    height: 40px;
+    border-radius: 10px;
+
+    box-shadow: 5px 5px rgb(233, 211, 183);
+}
+
 .btn1 {
-    margin-left: 10px;
+    padding-left: 20px;
 }
 
 .pic {
     margin-left: 40%;
     margin-top: -25%;
+    background-image: url(SPLASH-removebg-preview.png);
+    background-repeat: no-repeat;
+    height: -300px;
+    width: -370px;
 }
 
 .ptners {
@@ -138,6 +164,7 @@ section {
 .services {
     text-align: center;
     margin-right: 100px;
+    margin-top: 20px;
 }
 
 .sevs {
@@ -204,12 +231,13 @@ section {
 }
 
 .sv3 {
-    margin-left: 10px;
+    margin-left: 1px;
     background-color: rgb(28, 80, 54);
+    box-shadow: 10px #5c33bb;
 }
 
 .sv4 {
-    margin-left: 10px;
+    margin-left: 1px;
     background-color: rgb(154, 197, 226);
 
 }
@@ -217,6 +245,13 @@ section {
 .work {
     margin-left: 200px;
     display: flex;
+}
+
+.mg {
+    height: 400px;
+    background-image: url(SPLASH-removebg-preview.png);
+
+    background-repeat: no-repeat;
 }
 
 .hi {
@@ -246,12 +281,9 @@ section {
 }
 
 .butn {
-    width: 400px;
-    margin-left: 120px;
     display: flex;
-    height: 90px;
-    background-color: rgb(156, 141, 141);
-
+    margin-left: 120px;
+    height: 45px;
 }
 
 .imag3 span {
@@ -262,13 +294,17 @@ section {
     margin-top: 20px;
 }
 
+.butn input {
+    background-color: #284b30;
+    width: 200px;
+}
+
 .butn button {
     height: 30px;
-    margin-left: 30px;
-    text-align: center;
-    margin-top: 30px;
-    background-color: blue;
+    margin-left: -80px;
     border-radius: 10px;
+    margin-top: 10px;
+    background-color: #5c33bb;
 }
 
 .sign h1 {
@@ -281,7 +317,18 @@ section {
 
 .last {
     margin-left: 200px;
+    /* display: flex; */
 
+}
+
+.lst img {
+    margin-left: 55%;
+    margin-top: -60%;
+
+    background-repeat: no-repeat;
+    height: 420px;
+    width: 370px;
+    background-image: url(color-removebg-preview.png);
 
 }
 
@@ -298,17 +345,27 @@ section {
     display: inline;
 }
 
-.list button {
+.list input {
     height: 50px;
     border: none;
+    background-color: #e0e0dd;
+}
 
+.lst input {
+    background-color: rgb(235, 236, 236);
+    height: 20px;
+}
+
+.lsst button {
+    background-color: rgb(109, 198, 240);
+    border-radius: 20px;
+    height: 40px;
+    box-shadow: 5px 5px rgb(190, 190, 192);
 }
 
 .lsst {
 
     margin-top: 20px;
-
-
 }
 
 .log {
