@@ -115,22 +115,28 @@ section {
 .ptners {
     display: flex;
     margin-left: 200px;
-    background-color: rgb(248, 242, 242);
+    
     width: 600px;
     margin-top: 20px;
 }
 
 .n {
-    margin-left: 80px;
+     margin-left: 2px; 
+    background-color: rgb(248, 242, 242); 
+    width: 600px;
+    text-align: center;
 }
-
 .t {
-    margin-left: 10px;
+    margin-left: 2px;
+    background-color: rgb(248, 242, 242); 
+    width: 600px;
+    text-align: center;
 }
-
 .p {
-    margin-right: 180px;
-    margin-left: 20px;
+  
+    background-color: rgb(248, 242, 242); 
+    width: 600px;
+    text-align: center;
 }
 
 .one {
