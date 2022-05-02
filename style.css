@@ -76,7 +76,7 @@ section {
     color: rgb(9, 117, 117);
     border: solid #274e36 15px;
     border-radius: 20px;
-    box-shadow: 5px 5px rgb(241, 210, 170);
+    box-shadow: 8px 8px 8px 8px rgb(241, 210, 170);
 }
 
 .fa-instagram {
@@ -84,7 +84,7 @@ section {
     color: rgb(9, 117, 117);
     border: solid #d9db6c 15px;
     border-radius: 20px;
-    box-shadow: 5px 5px rgb(243, 212, 172);
+    box-shadow: 8px 8px 8px 8px rgb(243, 212, 172);
 }
 
 .btn {
@@ -97,7 +97,7 @@ section {
     height: 40px;
     border-radius: 10px;
 
-    box-shadow: 5px 5px rgb(233, 211, 183);
+    box-shadow: 8px 8px 8px 8px rgb(233, 211, 183);
 }
 
 .btn1 {
@@ -240,7 +240,7 @@ section {
 .sv3 {
     margin-left: 1px;
     background-color: rgb(28, 80, 54);
-    box-shadow: 10px #5c33bb;
+    box-shadow: 8px 8px 8px 8px #757379;
 }
 
 .sv4 {
@@ -268,6 +268,7 @@ section {
 
 .imag {
     margin-left: 100px;
+    margin-top: 30px;
 }
 
 .imag1 {
@@ -280,7 +281,12 @@ section {
     width: 900px;
 
 }
-
+.im1 button{
+    height: 50px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgb(163, 161, 161);
+}
 .imag2 {
     margin-bottom: 50px;
 }
@@ -326,7 +332,7 @@ section {
 
 .last {
     margin-left: 200px;
-    /* display: flex; */
+
 
 }
 
@@ -369,7 +375,7 @@ section {
     background-color: rgb(109, 198, 240);
     border-radius: 20px;
     height: 40px;
-    box-shadow: 5px 5px rgb(190, 190, 192);
+    box-shadow: 5px 5px 5px 5px rgb(190, 190, 192);
 }
 
 .lsst {
@@ -397,4 +403,25 @@ section {
 
 .splash {
     margin-right: -500%;
+}
+
+.two{
+    background-color: #5c33bb;
+    padding: 10px;
+    border-radius: 50px;
+    width: 20px;
+    
+}
+.three{
+    background-color: #c1d83e;
+    padding: 10px;
+    border-radius: 50px;
+    width: 20px; 
+}
+.one1{
+    background-color: #185220;
+    padding: 10px;
+    border-radius: 50px;
+    width: 20px;
+    margin-right: 10px;
 }
