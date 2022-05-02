@@ -1,5 +1,5 @@
 body {
-
+overflow-x: hidden;
     background-color: white;
 }
 
@@ -9,6 +9,7 @@ section {
     background-color: rgb(253, 241, 222);
     background-position: 100px;
     margin: 150px;
+    border-radius: 10px;
 }
 
 .main {
@@ -275,6 +276,8 @@ section {
 
 .im1 {
     margin-bottom: 50px;
+    height: 15px;
+    width: 900px;
 
 }
 
